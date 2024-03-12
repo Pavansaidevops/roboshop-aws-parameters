@@ -10,6 +10,6 @@ parameters = {
   "shipping.dev.CART_ENDPOINT" = { type = "String", value = "cart-dev.pavansai.online:80" }
   "shipping.dev.DB_HOST"       = { type = "String", value = "dev-mysql-rds-cluster.cluster-cjmyii204i32.us-east-1.rds.amazonaws.com" }
 
-  "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
-  "rds.dev.master_password"   = { type = "SecureString", value = "roboshop1234" }
+  "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
+  "rds.dev.master_password"   = { type = "String", value = "roboshop1234" }
 }
